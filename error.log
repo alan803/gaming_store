@@ -1,0 +1,30 @@
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 119
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 120
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 121
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 122
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 123
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 124
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 125
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 126
+[19-Oct-2025 09:57:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 127
+[19-Oct-2025 09:57:37 Europe/Berlin] Received save_address data: address_id=null, full_name=alan, phone_number=6282919440, address_line1=ksdhghjdfgshd, address_line2=kjkdhksjdfh, landmark=, city=klcvdslkv, state=klsldskg, postal_code=686510, address_type=home, is_default=0
+[19-Oct-2025 09:57:37 Europe/Berlin] Executing insert query for user_id=1
+[19-Oct-2025 09:57:37 Europe/Berlin] Address saved successfully: address_id=1
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 148
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 149
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 150
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 151
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 152
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 153
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 154
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 155
+[19-Oct-2025 10:21:26 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 156
+[19-Oct-2025 10:21:26 Europe/Berlin] Received save_address data: address_id=null, full_name=alan, phone_number=9747880235, address_line1=kannururak, address_line2=, landmark=ground, city=angelavelly, state=kerala, postal_code=686510, address_type=home, is_default=1
+[19-Oct-2025 10:21:26 Europe/Berlin] Executing insert query for user_id=1
+[19-Oct-2025 10:21:26 Europe/Berlin] Address saved successfully: address_id=2
+[19-Oct-2025 10:29:43 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 251
+[19-Oct-2025 10:29:43 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 252
+[19-Oct-2025 10:29:43 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 253
+[19-Oct-2025 10:30:29 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 251
+[19-Oct-2025 10:30:29 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 252
+[19-Oct-2025 10:30:29 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\gaming store\user_profile.php on line 253
