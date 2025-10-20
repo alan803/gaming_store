@@ -603,6 +603,7 @@ $stmt->close();
             }
         });
 
+<<<<<<< HEAD
         // Buy single item now
         function buyNow(productId, button) {
             const qtySelect = document.getElementById(`quantity-${productId}`);
@@ -615,6 +616,8 @@ $stmt->close();
             setTimeout(() => { button.disabled = false; button.innerHTML = prev; }, 1500);
         }
 
+=======
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
         // Update quantity via AJAX (unchanged)
         function updateQuantity(productId, quantity) {
             const select = document.getElementById(`quantity-${productId}`);

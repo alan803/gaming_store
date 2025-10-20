@@ -485,6 +485,7 @@ if ($result) {
             <li class="nav-item">
                 <a href="add_product.php" class="nav-link">
                     <i class="fas fa-box"></i>
+<<<<<<< HEAD
                     <span class="nav-text">Add Product</span>
                     <span class="tooltip">Add Product</span>
                 </a>
@@ -494,6 +495,10 @@ if ($result) {
                     <i class="fas fa-cogs"></i>
                     <span class="nav-text">Manage Products</span>
                     <span class="tooltip">Manage Products</span>
+=======
+                    <span class="nav-text">Products</span>
+                    <span class="tooltip">Products</span>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                 </a>
             </li>
             <li class="nav-item">
@@ -504,14 +509,52 @@ if ($result) {
                 </a>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
                 <a href="admin_order_manage.php" class="nav-link">
+=======
+                <a href="#" class="nav-link">
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                     <i class="fas fa-shopping-cart"></i>
                     <span class="nav-text">Orders</span>
                     <span class="notification-badge">5</span>
                     <span class="tooltip">Orders</span>
                 </a>
             </li>
+<<<<<<< HEAD
         </ul>
+=======
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-users"></i>
+                    <span class="nav-text">Users</span>
+                    <span class="tooltip">Users</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-chart-line"></i>
+                    <span class="nav-text">Analytics</span>
+                    <span class="tooltip">Analytics</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-text">Settings</span>
+                    <span class="tooltip">Settings</span>
+                </a>
+            </li>
+        </ul>
+        
+        <div class="sidebar-footer">
+            <a href="homepage.php">
+                <div class="icon-box">
+                    <i class="fas fa-arrow-left" style="color: #6b7280; font-size: 0.875rem;"></i>
+                </div>
+                <span class="nav-text" style="font-weight: 500; font-size: 0.875rem;">Back to Store</span>
+            </a>
+        </div>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
     </div>
 
     <!-- Main Content -->
@@ -524,6 +567,12 @@ if ($result) {
                 </div>
                 
                 <div style="display: flex; align-items: center; gap: 1rem;">
+<<<<<<< HEAD
+=======
+                    <button style="padding: 0.5rem; color: #6b7280; border-radius: 9999px; border: none; background: transparent; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#f3f4f6'" onmouseout="this.style.backgroundColor='transparent'">
+                        <i class="fas fa-bell"></i>
+                    </button>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                     
                     <div style="position: relative;">
                         <button id="userMenuButton" style="display: flex; align-items: center; gap: 0.5rem; border: none; background: transparent; cursor: pointer;">
@@ -535,6 +584,15 @@ if ($result) {
                         </button>
                         
                         <div id="userMenu" style="display: none; position: absolute; right: 0; margin-top: 0.5rem; width: 12rem; background-color: white; border-radius: 0.375rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); padding: 0.25rem 0; z-index: 50; border: 1px solid #e5e7eb;">
+<<<<<<< HEAD
+=======
+                            <a href="#" style="display: block; padding: 0.5rem 1rem; font-size: 0.875rem; color: #374151; text-decoration: none;" onmouseover="this.style.backgroundColor='#f3f4f6'" onmouseout="this.style.backgroundColor='transparent'">
+                                <i class="fas fa-user" style="margin-right: 0.5rem;"></i>Profile
+                            </a>
+                            <a href="#" style="display: block; padding: 0.5rem 1rem; font-size: 0.875rem; color: #374151; text-decoration: none;" onmouseover="this.style.backgroundColor='#f3f4f6'" onmouseout="this.style.backgroundColor='transparent'">
+                                <i class="fas fa-cog" style="margin-right: 0.5rem;"></i>Settings
+                            </a>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                             <div style="border-top: 1px solid #f3f4f6; margin: 0.25rem 0;"></div>
                             <form action="logout.php" method="post" style="width: 100%; margin: 0;">
                                 <button type="submit" style="width: 100%; text-align: left; padding: 0.5rem 1rem; font-size: 0.875rem; color: #dc2626; border: none; background: transparent; cursor: pointer;" onmouseover="this.style.backgroundColor='#fef2f2'" onmouseout="this.style.backgroundColor='transparent'">
@@ -595,7 +653,55 @@ if ($result) {
                     </div>
                 </form>
                 
+<<<<<<< HEAD
 
+=======
+                <?php if (!empty($categories)): ?>
+                <div class="table-container">
+                    <h3 style="font-size: 1.125rem; font-weight: 600; color: #111827; margin: 2rem 0 1rem;">All Categories</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Image</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($categories as $category): ?>
+                            <tr>
+                                <td><?php echo htmlspecialchars($category['id']); ?></td>
+                                <td><?php echo htmlspecialchars($category['name']); ?></td>
+                                <td><?php echo htmlspecialchars($category['description']); ?></td>
+                                <td>
+                                    <?php if (!empty($category['image'])): ?>
+                                        <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="Category Image" style="max-width: 50px; max-height: 50px;">
+                                    <?php else: ?>
+                                        No Image
+                                    <?php endif; ?>
+                                </td>
+                                <td>
+                                    <a href="edit_category.php?id=<?php echo $category['id']; ?>" style="color: #4f46e5; margin-right: 1rem; text-decoration: none;">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </a>
+                                    <a href="delete_category.php?id=<?php echo $category['id']; ?>" style="color: #ef4444; text-decoration: none;" onclick="return confirm('Are you sure you want to delete this category?');">
+                                        <i class="fas fa-trash"></i> Delete
+                                    </a>
+                                </td>
+                            </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
+                <?php else: ?>
+                    <div style="margin-top: 2rem; padding: 1.5rem; text-align: center; background-color: #f9fafb; border-radius: 0.5rem; color: #6b7280;">
+                        <i class="fas fa-inbox" style="font-size: 2rem; margin-bottom: 0.5rem; opacity: 0.5;"></i>
+                        <p>No categories found. Add your first category using the form above.</p>
+                    </div>
+                <?php endif; ?>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
             </div>
         </main>
     </div>

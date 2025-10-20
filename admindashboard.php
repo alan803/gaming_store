@@ -13,6 +13,7 @@ include 'connection.php';
 // Get admin details
 $admin_id = $_SESSION['auth_admin_id'];
 $admin_username = $_SESSION['auth_username'] ?? 'Admin';
+<<<<<<< HEAD
 
 // Dashboard metrics
 $total_sales = 0.0;
@@ -36,6 +37,8 @@ $q3 = $conn->query("SELECT COUNT(*) AS total_products FROM products");
 if ($q3 && $q3->num_rows > 0) {
     $total_products = (int) ($q3->fetch_assoc()['total_products'] ?? 0);
 }
+=======
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -288,6 +291,7 @@ if ($q3 && $q3->num_rows > 0) {
             <li class="nav-item">
                 <a href="add_product.php" class="nav-link">
                     <i class="fas fa-box"></i>
+<<<<<<< HEAD
                     <span class="nav-text">Add Product</span>
                     <span class="tooltip">Add Product</span>
                 </a>
@@ -297,6 +301,10 @@ if ($q3 && $q3->num_rows > 0) {
                     <i class="fas fa-cogs"></i>
                     <span class="nav-text">Manage Products</span>
                     <span class="tooltip">Manage Products</span>
+=======
+                    <span class="nav-text">Products</span>
+                    <span class="tooltip">Products</span>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                 </a>
             </li>
             <li class="nav-item">
@@ -307,14 +315,52 @@ if ($q3 && $q3->num_rows > 0) {
                 </a>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
                 <a href="admin_order_manage.php" class="nav-link">
+=======
+                <a href="#" class="nav-link">
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                     <i class="fas fa-shopping-cart"></i>
                     <span class="nav-text">Orders</span>
                     <span class="notification-badge">5</span>
                     <span class="tooltip">Orders</span>
                 </a>
             </li>
+<<<<<<< HEAD
         </ul>
+=======
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-users"></i>
+                    <span class="nav-text">Users</span>
+                    <span class="tooltip">Users</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-chart-line"></i>
+                    <span class="nav-text">Analytics</span>
+                    <span class="tooltip">Analytics</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-text">Settings</span>
+                    <span class="tooltip">Settings</span>
+                </a>
+            </li>
+        </ul>
+        
+        <div class="sidebar-footer">
+            <a href="homepage.php">
+                <div class="icon-box">
+                    <i class="fas fa-arrow-left" style="color: #6b7280; font-size: 0.875rem;"></i>
+                </div>
+                <span class="nav-text" style="font-weight: 500; font-size: 0.875rem;">Back to Store</span>
+            </a>
+        </div>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
     </div>
 
     <!-- Main Content -->
@@ -327,6 +373,12 @@ if ($q3 && $q3->num_rows > 0) {
                 </div>
                 
                 <div style="display: flex; align-items: center; gap: 1rem;">
+<<<<<<< HEAD
+=======
+                    <button style="padding: 0.5rem; color: #6b7280; border-radius: 9999px; border: none; background: transparent; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#f3f4f6'" onmouseout="this.style.backgroundColor='transparent'">
+                        <i class="fas fa-bell"></i>
+                    </button>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                     
                     <div style="position: relative;">
                         <button id="userMenuButton" style="display: flex; align-items: center; gap: 0.5rem; border: none; background: transparent; cursor: pointer;">
@@ -338,6 +390,15 @@ if ($q3 && $q3->num_rows > 0) {
                         </button>
                         
                         <div id="userMenu" style="display: none; position: absolute; right: 0; margin-top: 0.5rem; width: 12rem; background-color: white; border-radius: 0.375rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); padding: 0.25rem 0; z-index: 50; border: 1px solid #e5e7eb;">
+<<<<<<< HEAD
+=======
+                            <a href="#" style="display: block; padding: 0.5rem 1rem; font-size: 0.875rem; color: #374151; text-decoration: none;" onmouseover="this.style.backgroundColor='#f3f4f6'" onmouseout="this.style.backgroundColor='transparent'">
+                                <i class="fas fa-user" style="margin-right: 0.5rem;"></i>Profile
+                            </a>
+                            <a href="#" style="display: block; padding: 0.5rem 1rem; font-size: 0.875rem; color: #374151; text-decoration: none;" onmouseover="this.style.backgroundColor='#f3f4f6'" onmouseout="this.style.backgroundColor='transparent'">
+                                <i class="fas fa-cog" style="margin-right: 0.5rem;"></i>Settings
+                            </a>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                             <div style="border-top: 1px solid #f3f4f6; margin: 0.25rem 0;"></div>
                             <form action="logout.php" method="post" style="width: 100%; margin: 0;">
                                 <button type="submit" style="width: 100%; text-align: left; padding: 0.5rem 1rem; font-size: 0.875rem; color: #dc2626; border: none; background: transparent; cursor: pointer;" onmouseover="this.style.backgroundColor='#fef2f2'" onmouseout="this.style.backgroundColor='transparent'">
@@ -358,7 +419,11 @@ if ($q3 && $q3->num_rows > 0) {
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div>
                             <p style="font-size: 0.875rem; font-weight: 500; color: #6b7280; margin: 0 0 0.5rem 0;">Total Sales</p>
+<<<<<<< HEAD
                             <h3 style="font-size: 1.5rem; font-weight: 700; color: #111827; margin: 0;">$<?php echo number_format($total_sales, 2); ?></h3>
+=======
+                            <h3 style="font-size: 1.5rem; font-weight: 700; color: #111827; margin: 0;">$24,780</h3>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                         </div>
                         <div style="padding: 0.75rem; background-color: #eef2ff; border-radius: 0.5rem; color: #4f46e5;">
                             <i class="fas fa-dollar-sign" style="font-size: 1.25rem;"></i>
@@ -370,7 +435,11 @@ if ($q3 && $q3->num_rows > 0) {
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div>
                             <p style="font-size: 0.875rem; font-weight: 500; color: #6b7280; margin: 0 0 0.5rem 0;">Total Orders</p>
+<<<<<<< HEAD
                             <h3 style="font-size: 1.5rem; font-weight: 700; color: #111827; margin: 0;"><?php echo number_format($total_orders); ?></h3>
+=======
+                            <h3 style="font-size: 1.5rem; font-weight: 700; color: #111827; margin: 0;">1,284</h3>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                         </div>
                         <div style="padding: 0.75rem; background-color: #dcfce7; border-radius: 0.5rem; color: #16a34a;">
                             <i class="fas fa-shopping-bag" style="font-size: 1.25rem;"></i>
@@ -382,7 +451,11 @@ if ($q3 && $q3->num_rows > 0) {
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div>
                             <p style="font-size: 0.875rem; font-weight: 500; color: #6b7280; margin: 0 0 0.5rem 0;">Total Products</p>
+<<<<<<< HEAD
                             <h3 style="font-size: 1.5rem; font-weight: 700; color: #111827; margin: 0;"><?php echo number_format($total_products); ?></h3>
+=======
+                            <h3 style="font-size: 1.5rem; font-weight: 700; color: #111827; margin: 0;">487</h3>
+>>>>>>> 22f2b8c22004664ef3f98ffefaf8f58b81b31de9
                         </div>
                         <div style="padding: 0.75rem; background-color: #dbeafe; border-radius: 0.5rem; color: #2563eb;">
                             <i class="fas fa-box" style="font-size: 1.25rem;"></i>
