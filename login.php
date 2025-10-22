@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="homepage.php" class="nav-link text-gray-600 hover:text-indigo-600">Home</a>
-                    <a href="homepage.php" class="nav-link text-gray-600 hover:text-indigo-600">About</a>
+                    <a href="homepage.php#about" class="nav-link text-gray-600 hover:text-indigo-600">About</a>
                     <a href="products.php" class="nav-link text-gray-600 hover:text-indigo-600">Shop</a>
                 </div>
                 <div class="flex items-center space-x-6">
